@@ -60,7 +60,7 @@ for c in cnts:
 #cv2.destroyAllWindows()
 
 #reading the data from the csv file
-data = pandas.read_csv("F:\Contest\Infra Mind\Excel and CSV\DatasetFinal.csv")
+data = pandas.read_csv("DatasetFinal.csv")
 
 #store the dataset items in separate arrays for each column
 iden = data["ID"].values
